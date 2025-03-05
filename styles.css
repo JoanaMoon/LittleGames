@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Comic Sans als Schriftart */
     margin: 0;
     padding: 0;
     background-color: #f5f5dc; /* Beige Farbe */
@@ -25,10 +25,10 @@ h1 {
 
 .game-selection {
     display: flex;
-    flex-direction: column; /* Spaltenweise Anordnung */
+    flex-direction: column; /* Anordnung der Spielkarten in einer Spalte */
     gap: 20px;
     justify-content: center;
-    align-items: center;
+    align-items: center; /* Horizontale Zentrierung */
     margin-top: 20px;
 }
 
@@ -61,4 +61,13 @@ footer a {
     text-decoration: none;
     color: #4CAF50;
     font-weight: bold;
+}
+
+/* Um die Hauptseite vertikal zu zentrieren, ohne dass sie zu einer festen Höhe wird */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Header oben ausrichten */
+    align-items: center; /* Horizontale Zentrierung */
+    width: 100%;
 }
