@@ -1,8 +1,8 @@
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    font-family: 'Verdana', sans-serif; /* Umstieg auf eine neutralere Schriftart */
     margin: 0;
     padding: 0;
-    background-color: #f5f5dc; /* Beige Farbe */
+    background-color: #f5f5dc; /* Beige Hintergrundfarbe */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #006400; /* Dunkles Grün (Sea Green) */
+    background-color: #4B8B3B; /* Neues, sanftes Dunkelgrün */
     color: white;
     padding: 20px;
     width: 100%;
@@ -25,10 +25,10 @@ h1 {
 
 .game-selection {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Vertikale Anordnung der Spiele */
     gap: 20px;
     justify-content: center;
-    align-items: center;
+    align-items: center; /* Horizontale Zentrierung */
     margin-top: 20px;
 }
 
@@ -41,11 +41,11 @@ h1 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
-    width: 250px;
+    width: 250px; /* Fixierte Breite der Spielkarten */
 }
 
 .game-card:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Zoom-Effekt beim Hover */
 }
 
 h2 {
@@ -59,7 +59,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #006400; /* Passendes Dunkelgrün */
+    color: #4B8B3B; /* Sanftes Dunkelgrün für den Link */
     font-weight: bold;
 }
 
