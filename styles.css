@@ -1,5 +1,5 @@
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Comic Sans als Schriftart */
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
     margin: 0;
     padding: 0;
     background-color: #f5f5dc; /* Beige Farbe */
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #2E8B57; /* Dunkles Grün (Sea Green) */
     color: white;
     padding: 20px;
     width: 100%;
@@ -25,10 +25,10 @@ h1 {
 
 .game-selection {
     display: flex;
-    flex-direction: column; /* Anordnung der Spielkarten in einer Spalte */
+    flex-direction: column;
     gap: 20px;
     justify-content: center;
-    align-items: center; /* Horizontale Zentrierung */
+    align-items: center;
     margin-top: 20px;
 }
 
@@ -41,7 +41,7 @@ h1 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
-    width: 250px; /* Breite der Spielkarten */
+    width: 250px;
 }
 
 .game-card:hover {
@@ -59,15 +59,14 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #006400;
+    color: #2E8B57; /* Passendes Dunkelgrün */
     font-weight: bold;
 }
 
-/* Um die Hauptseite vertikal zu zentrieren, ohne dass sie zu einer festen Höhe wird */
 main {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Header oben ausrichten */
-    align-items: center; /* Horizontale Zentrierung */
+    justify-content: flex-start;
+    align-items: center;
     width: 100%;
 }
