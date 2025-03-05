@@ -29,7 +29,7 @@ body {
 }
 
 .logo:hover {
-    color: #8ea4d2; /* Keine Farbänderung beim Hover */
+    color: 688b58; /* Keine Farbänderung beim Hover */
     text-decoration: none; /* Keine Unterstreichung */
 }
 
