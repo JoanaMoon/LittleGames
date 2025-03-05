@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f5dc; /* Beige Hintergrundfarbe */
+    color: #49516f; /* Dunkelgrau für den Text */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #2C6B3F; /* Noch dunkleres Grün */
+    background-color: #688b58; /* Erdig grüner Hintergrund für den Header */
     color: white;
     padding: 20px;
     width: 100%;
@@ -25,10 +26,9 @@ h1 {
 
 .game-selection {
     display: flex;
-    flex-direction: column; /* Vertikale Anordnung der Spiele */
+    flex-wrap: wrap; /* Ermöglicht das Umbrücken von Elementen */
     gap: 20px;
-    justify-content: center;
-    align-items: center; /* Horizontale Zentrierung */
+    justify-content: center; /* Horizontale Zentrierung */
     margin-top: 20px;
 }
 
@@ -42,14 +42,18 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
     width: 250px; /* Fixierte Breite der Spielkarten */
+    flex: 1 1 30%; /* Jede Karte nimmt 30% der Breite ein, maximal 3 Karten nebeneinander */
 }
 
 .game-card:hover {
     transform: scale(1.05); /* Zoom-Effekt beim Hover */
+    background-color: #8ea4d2; /* Sanftes Blau beim Hover */
+    color: white;
 }
 
 h2 {
     margin: 0;
+    color: #49516f; /* Dunkelgrau für die Überschrift */
 }
 
 footer {
@@ -59,8 +63,12 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #2C6B3F; /* Dunkleres Grün für den Link */
+    color: #8ea4d2; /* Sanftes Blau für den Link */
     font-weight: bold;
+}
+
+footer a:hover {
+    color: #6279b8; /* Dunkleres Blau beim Hover */
 }
 
 main {
