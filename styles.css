@@ -12,31 +12,15 @@ body {
     flex-direction: column;
 }
 
-header {
-    background-color: #688b58; /* Erdig grüner Hintergrund für den Header */
-    color: white;
-    padding: 20px;
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between; /* Header-Inhalt horizontal ausrichten */
-    align-items: center;
-    padding-right: 30px; /* Etwas Abstand für das Logo */
-}
-
-h1 {
-    margin: 0;
-}
-
 .logo {
     font-size: 36px;
     color: #8ea4d2; /* Hellblau für das Logo */
     text-decoration: none;
     font-weight: bold;
-    position: absolute; /* Logo oben links positionieren */
-    left: 20px; /* Abstand vom linken Rand */
-    top: 20px; /* Abstand vom oberen Rand */
-    line-height: 1.2; /* Zeilenhöhe für den Abstand zwischen den Zeilen */
+    position: absolute; /* Logo ganz oben links */
+    left: 20px;
+    top: 20px;
+    line-height: 1.2;
 }
 
 .logo span {
@@ -46,6 +30,19 @@ h1 {
 .logo:hover {
     color: #8ea4d2; /* Keine Farbänderung beim Hover */
     text-decoration: none; /* Keine Unterstreichung */
+}
+
+header {
+    background-color: #688b58; /* Erdig grüner Hintergrund für den Header */
+    color: white;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
 }
 
 .game-selection {
