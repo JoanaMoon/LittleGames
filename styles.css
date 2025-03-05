@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #2E8B57; /* Dunkles Grün (Sea Green) */
+    background-color: #006400; /* Dunkles Grün (Sea Green) */
     color: white;
     padding: 20px;
     width: 100%;
@@ -59,7 +59,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #2E8B57; /* Passendes Dunkelgrün */
+    color: #006400; /* Passendes Dunkelgrün */
     font-weight: bold;
 }
 
