@@ -15,11 +15,30 @@
 
     <header>
         <h1>Make some decisions yourself!</h1>
-        <p>Hier musst du Entscheidungen treffen!</p>
+        <p>Choose a profession</p>
     </header>
 
-    <div class="game-container">
-        <p>Füge hier deine Spiellogik oder interaktive Elemente hinzu.</p>
+    <div id="career-choice">
+        <button onclick="startGame('scientist')">Scientist</button>
+        <button onclick="startGame('politician')">Politician</button>
+        <button onclick="startGame('doctor')">Doctor</button>
     </div>
+
+    <div id="game-info">
+        <!-- Dynamic content based on choices will appear here -->
+    </div>
+
+    <div id="decision-buttons" style="display: none;">
+        <button id="decision1" onclick="makeDecision(1)">Decision 1</button>
+        <button id="decision2" onclick="makeDecision(2)">Decision 2</button>
+    </div>
+
+    <div id="game-end" style="display: none;">
+        <h2>Game Over!</h2>
+        <p id="outcome"></p>
+    </div>
+</main>
+
+<script src="game1.js"></script>
 </body>
 </html>
